@@ -9,8 +9,8 @@ import {Wallet} from './wallet';
 import {EventTargetImpl} from './event-target-impl';
 const KAS = helper.KAS;
 export {UnspentOutput};
-export const CONFIRMATION_COUNT = 10;
-export const COINBASE_CFM_COUNT = 100;
+export const CONFIRMATION_COUNT = 100;
+export const COINBASE_CFM_COUNT = 1000;
 
 let seq = 0;
 export class UtxoSet extends EventTargetImpl {
